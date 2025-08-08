@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family-regular: "Open Sans", sans-serif;
+
+  --color-orange: #FF7D00;
+  --color-light-blue: #73E5FF;
+  --color-light-gray: #FFF;
+  --color-font-blue: #00636D;
+  --color-font-dark: #000;
+
+  --container-width: 320px;
+}
