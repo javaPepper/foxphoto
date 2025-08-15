@@ -1,7 +1,28 @@
 @font-face {
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Regular.woff2);
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -148,4 +169,92 @@
   position: absolute;
   top: 340px;
   left: 130px;
+}
+
+.welcome {
+  width: var(--container-width);
+  margin-inline: auto;
+  background: var(--color-light-blue);
+}
+.welcome-h2 {
+  color: #000;
+  font-family: var(--font-family-regular);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 29px 16px 22px 13px;
+}
+.welcome-content {
+  color: #000;
+  font-family: var(--font-family-regular);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 35px; 
+  padding-left: 16px;
+  padding-right: 30px;
+}
+
+.catalog {
+  width: var(--container-width);
+  margin-inline: auto;
+  background: var(--color-light-gray);
+}
+.catalog-header {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 18px 16px 9px 16px;
+}
+.cat-container {
+  padding-left: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 41px;
+}
+.cat-header {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+.dress-left_container,
+.dishes-left_container,
+.accessories-left_container,
+.gifts-left_container,
+.home-left_container,
+.foto-left_container {
+  display: flex;
+  flex-direction: column;
+}
+.dress-link,
+.dishes-link,
+.accessories-link,
+.gifts-link,
+.home-link,
+.foto-link {
+  color: var(--color-font-blue);
+  font-family: var(--font-family-regular);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 204.272%;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+}
+.dress-right_container,
+.accessories-right_container,
+.home-right_container {
+  padding-right: 15px;
+}
+.dishes-right_container {
+  padding-right: 25px;
+}
+.home-right_container {
+  padding-right: 16px;
 }
