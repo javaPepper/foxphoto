@@ -258,3 +258,9 @@
 .home-right_container {
   padding-right: 16px;
 }
+
+.map {
+  width: var(--container-width);
+  margin-inline: auto;
+  padding-bottom: 22px;
+}
