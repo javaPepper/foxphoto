@@ -262,5 +262,11 @@
 .map {
   width: var(--container-width);
   margin-inline: auto;
-  padding-bottom: 22px;
+  padding-bottom: 12px;
+}
+
+.find-us {
+  width: var(--container-width);
+  margin-inline: auto;
+
 }
