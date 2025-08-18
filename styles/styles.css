@@ -268,5 +268,52 @@
 .find-us {
   width: var(--container-width);
   margin-inline: auto;
-
+}
+.find-us_header {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.find-us-address_header,
+.find-us-tel_header,
+.find-us-working-hours_header,
+.find-us_address,
+.find-us_tel,
+.find-us_working-hours  {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+.find-us_address,
+.find-us_tel,
+.find-us_working-hours {
+  font-weight: 400;
+  line-height: 149.8%;
+  margin-bottom: 14px;
+}
+.find-us_address {
+  padding-right: 65px;
+}
+.find-us-social-media_container {
+  display: flex;
+}
+.find-us-vk_link,
+.find-us-insta_link {
+  margin-left: 14px;
+  color: var(--color-font-blue);
+  font-family: var(--font-family-regular);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 204.272%; 
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
 }
