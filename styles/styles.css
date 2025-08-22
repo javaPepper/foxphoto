@@ -403,8 +403,48 @@
   position: relative;
   z-index: 30;
   margin-left: 18px;
-  margin-bottom: 20px;
 }
 .contact-us_background {
   margin-top: -370px;
+  height: 393px;
+}
+
+.contacts {
+  margin-inline: auto;
+  width: var(--container-width);
+  padding: 16px;
+  padding-bottom: 28px;
+}
+.contacts-header {
+  color: var(--color-font-blue);
+  font-family: var(--font-family-regular);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+.contacts-phone_container,
+.contacts-email_container,
+.contacts-sm_container,
+.contacts-address_container {
+  display: flex;
+  margin-bottom: 34px;
+}
+.contacts-phone_link,
+.contacts-email_link,
+.contacts-sm_link,
+.contacts-address_link {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 204.272%;
+  text-decoration: none;
+  margin-left: 18px;
+}
+.contacts-social-media_container {
+  display: flex;
+}
+.contacts-sm_vk {
+  margin-right: 16px;
 }
