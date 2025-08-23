@@ -448,3 +448,30 @@
 .contacts-sm_vk {
   margin-right: 16px;
 }
+
+.footer {
+  margin-inline: auto;
+  padding: 31px 27px 31px 17px;
+  width: var(--container-width);
+  background: #E4E4E4;;
+}
+.footer-img_container {
+  display: flex;
+  margin-bottom: 14px;
+}
+.footer-left-img_container {
+  display: flex;
+  position: relative;
+  margin-right: 14px;
+}
+.footer-left_img2 {
+  position: absolute;
+  left: 10px;
+}
+.footer-copyright {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
