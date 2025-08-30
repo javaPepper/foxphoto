@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family-regular: "Open Sans", sans-serif;
+
+  --color-orange: #FF7D00;
+  --color-light-blue: #73E5FF;
+  --color-light-gray: #FFF;
+  --color-font-blue: #00636D;
+  --color-font-light-blue: #00AFCC;
+  --color-font-dark: #000;
+
+  --container-width: 768px;
+}
+
+.container {
+  width: var(--container-width);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  width: var(--container-width);
+  background: var(--color-light-gray);
+}
+.header-top {
+  display: flex;
+  padding-inline: 16px;
+}
+.header-logo {
+  padding: 16px 35px 10px 0;
+}
+.header-contacts_container {
+  padding: 33px 159px 0 0;
+}
+.header-phone,
+.header-address {
+  color: var(--color-font-dark);
+  font-family: var(--font-family-regular);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1px;
+}
+.header-address {
+  font-size: 16px;
+  font-weight: 400;
+}
+.social-media_container {
+  display: flex;
+}
+.header-insta_link {
+  margin-right: 13px;
+}
+.header-bottom {
+  padding: 0 27px 0 16px;
+  background: var(--color-font-light-blue);
+}
+nav a {
+  cursor: pointer;
+}
+.header-nav_link-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  color: var(--color-light-gray);
+  font-family: var(--font-family-regular);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-nav_item1,
+.header-nav_item2 {
+  margin-right: 50px;
+}
+.header-nav_item3 {
+  margin-right: 77px;
+}
+.header-nav_item4 {
+  margin-left: 26px;
+}
